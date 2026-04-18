@@ -1,6 +1,6 @@
 %%writefile requirements.txt
 streamlit
-tensorflow
+tensorflow-cpu==2.15.0
 numpy
 pillow
 
