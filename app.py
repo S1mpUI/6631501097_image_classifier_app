@@ -35,7 +35,7 @@ if uploaded_file is not None:
 
     # 5. Prediction
     # (1)
-    preds = model.predict(x, verbose=0)
+    preds = model.predict(x)
     # (2)
     top_preds = decode_predictions(preds, top=3)[0]
 
