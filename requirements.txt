@@ -1,6 +1,5 @@
 %%writefile requirements.txt
-streamlit
+streamlit==1.32.0
 tensorflow-cpu==2.15.0
-numpy
-pillow
-
+numpy==1.26.4
+pillow==10.2.0
